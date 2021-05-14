@@ -6,9 +6,11 @@ using namespace std;
 int main()
 {
     string str;
-    cin >> "Enter a string" >> str;
+    cout << "Enter a string" << endl;
+    cin >> str;
     char search;
-    cin >> "Enter a symbol, which you want to search" >> search;
+    cout << "Enter a symbol, which you want to search" << endl;
+    cin >> search;
     int a = 0;
 
     for (int i = 0; i < str.size(); i++)
@@ -16,6 +18,6 @@ int main()
         {
             a++;
         }
-    cout << a << endl;
+    cout << "Number of your symbols:" << a << endl;
     return 0;
 }

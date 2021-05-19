@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     string str;
-    cout << "Enter a string" << endl;
+    cout << "Enter a string:" << endl;
     cin >> str;
     char search;
-    cout << "Enter a symbol, which you want to search" << endl;
+    cout << "Enter a symbol, which you want to search:" << endl;
     cin >> search;
     int a = 0;
 
